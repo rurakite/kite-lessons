@@ -24,6 +24,20 @@ a {
     justify-content: center;
 }
 
+img {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+}
+
+p {
+    color: black;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+}
 /* Hero Section */
 #hero {
     background-image: url(../images/hero-image.jpg);
@@ -120,10 +134,6 @@ a {
 /* End Hero Section */
 
 /* Lessons Section */
-#lessons {
-
-}
-
 #lessons .lesson {
     flex-direction: column;
     text-align: center;
@@ -141,6 +151,67 @@ a {
     letter-spacing: .2rem;
     text-align: center;
 }
+
+#lessons .section-title span {
+    color: rgba(193,69,165,255);
+}
+
+#lessons .lesson-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+#lessons .lesson-item {
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url(../images/IMG_1855\ 2.JPG);
+    background-size: cover;
+    background-position: center;
+    margin: 10px 5%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#lessons .lesson-item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    opacity: .8;
+    z-index: -1;
+
+}
+
+/* #lessons .lesson-bottom .icon {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+} */
+
+#lessons .lesson-bottom h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#lessons .lesson-item p {
+    color: white;
+    text-align: left;
+}
+
 /* End Lessons Section */
 /* Keyframes */
 @keyframes text_reveal_box{
