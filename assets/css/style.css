@@ -31,12 +31,26 @@ img {
 }
 
 p {
-    color: black;
+    color: #1d1e20;
     font-size: 1.4rem;
     margin-top: 5px;
     line-height: 2.5rem;
     font-weight: 300;
     letter-spacing: .05rem;
+}
+
+.section-title {
+    font-size: 4rem;
+    font-weight: 300;
+    color: #1d1e20;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+.section-title span {
+    color: rgba(193,69,165,255);
 }
 /* Hero Section */
 #hero {
@@ -142,19 +156,7 @@ p {
     padding: 100px 0;
 }
 
-#lessons .section-title {
-    font-size: 4rem;
-    font-weight: 300;
-    color: black;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    text-align: center;
-}
 
-#lessons .section-title span {
-    color: rgba(193,69,165,255);
-}
 
 #lessons .lesson-bottom {
     display: flex;
