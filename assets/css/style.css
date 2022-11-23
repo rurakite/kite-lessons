@@ -385,6 +385,27 @@ p {
 }
 
 /* End Lessons Section */
+/* Booking Form */
+#booking {
+    height: 100vh;
+    width: 100vw;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/booking.JPG);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#booking .booking {
+    width: 360px;
+    height: 400px;
+    background: rgba(41,45,55, .7);
+    border-radius: 10px;
+    position: relative;
+}
+
+/* End Booking Form */
 /* Keyframes */
 @keyframes text_reveal_box{
     50% {
@@ -411,24 +432,3 @@ p {
 } 
 /* END Keyframes */
 
-/* Booking Form */
-#booking {
-    background-image: url(./_DSC7188-Edit.JPG);
-    background-size: cover;
-    background-position: center bottom;
-    position: relative;
-    z-index: 1;
-}
-
-#booking::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: .1;
-    z-index: -1;
-}
-/* End Booking Form */
