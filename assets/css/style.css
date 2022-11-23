@@ -389,7 +389,7 @@ p {
 #booking {
     height: 100vh;
     width: 100vw;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/booking.JPG);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(../images/booking.JPG);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -400,12 +400,165 @@ p {
 #booking .booking {
     width: 360px;
     height: 400px;
-    background: rgba(41,45,55, .7);
+    /* background: rgba(41,45,55, .7); */
+    background: #fff;
     border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+#booking h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #777;
+}
+
+
+#booking form {
+    width: 280px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    transition: 0.5s;
+}
+
+form input {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+::placeholder {
+    color: #777;
+}
+
+#booking .btn-box {
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+form button {
+    width: 110px;
+    height: 35px;
+    margin: 0 10px;
+    background: linear-gradient(to right, #7E2E8E, #DC5E9D);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#booking #Form2 {
+left: 450px;
+margin-bottom: 10px;
+}
+
+#booking label {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#booking .step-row {
+    width: 360px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 -1px 5px -1px #000;
     position: relative;
 }
 
+#booking .step-col {
+    width: 180px;
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    position: relative;
+}
+
+#progress {
+    position: absolute;
+    height: 100%;
+    width: 180px;
+    background: linear-gradient(to right, #7E2E8E, #DC5E9D);
+    transition: 1s;
+}
+
+#progress::after {
+    content: '';
+    height: 0;
+    width: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    border-left: 20px solid #DC5E9D;
+}
 /* End Booking Form */
+/* footer */
+#footer {
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+#footer .footer {
+    min-height: 150px;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#footer h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#footer .social-icon {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+#footer .social-item {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+}
+
+#footer .social-item img {
+    filter: grayscale(1);
+    transition: .3s ease filter;
+}
+
+#footer .social-item:hover img {
+    filter: grayscale(0);
+}
+
+#footer p {
+    color: white;
+    font-size: 1.3rem;
+}
+
+#footer p img {
+    height: 1rem;
+    width: 1rem;
+}
+/* footer */
+
 /* Keyframes */
 @keyframes text_reveal_box{
     50% {

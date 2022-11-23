@@ -37,17 +37,78 @@
     <!-- Form Section -->
     <section id="booking">
         <div class="booking">
-                <form>
-                    <h3>Contact Information</h3>
-                    <input type="text" placeholder="First name" required>
-                    <input type="text" placeholder="Last name" required>
-                    <input type="text" placeholder="Email" required>
-                    <input type="text" placeholder="Phone number" required>
+                <form id="Form1">
+                    <h3>CONTACT INFORMATION</h3>
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Phone number">
+                    <div class="btn-box">
+                        <button typy="button" id="Next">NEXT</button>
+                    </div>
                 </form>
+
+                <form id="Form2">
+                    <h3>CHOOSE LESSON TYPE</h3>
+                    <!-- <input type="radio" value="PRIVAT" required>
+                    <input type="text" value="GROUP" required>
+                    <input type="text" value="OFFSITE" required>
+                    <input type="text" value="ZERO 2 HERO" required> -->
+                    <label for="privat">PRIVAT SESSION</label>
+                    <input type="radio" id="privat" value="PRIVAT SESSION">
+                    <label for="group">GROUP SESSION</label>
+                    <input type="radio" id="group" value="GROUP SESSION">
+                    <label for="offsite">OFFSITE COACH</label>
+                    <input type="radio" id="offsite" value="OFFSITE COACH">
+                    <label for="zero2hero">FROM ZERO 2 HERO</label>
+                    <input type="radio" id="zero2hero" value="FROM ZERO 2 HERO">
+                    <div class="btn-box">
+                        <button typy="submit">SUBMIT</button>
+                    </div>
+                </form>
+
+                <div class="step-row">
+                    <div id="progress"></div>
+                    <div class="step-col">Step1</div>
+                    <div class="step-col">Step2</div>
+                </div>
         </div>
+
+        <script>
+            var Form1 = document.getElementById("Form1");
+            var Form2 = document.getElementById("Form2");
+
+            var Next = document.getElementById("Next");
+
+            var progress = document.getElementById("progress")
+
+            Next.onclick = function(){
+                Form1.style.left = "-450px"
+                Form2.style.left = "40px"
+                progress.style.width = "360px"
+            }
+        </script>
     </section>
     <!-- End Form Section -->
-
+    <!-- footer -->
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand">
+                <h1><span>R</span>ura<span>K</span>iteboarding</h1>
+            </div>
+            <h2>WARNING: KITESURFING IS HIGHLY ADDICTIVE AND MAY COMPLETELY TAKE OVER YOUR LIFE</h2>
+            <div class="social-icon">
+                <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/bubbles/100/null/facebook-new.png"/></a>
+                </div>
+                <div class="social-item">
+                    <a href="#">
+                        <img src="https://img.icons8.com/bubbles/100/null/instagram-new--v2.png"/></a>
+                </div>
+            </div>
+            <p><img src="https://img.icons8.com/fluency/48/null/copyright.png"/>2018-2023 Rura Kiteboarding, All rights reserved. </p>
+        </div>
+    </section>
+    <!-- footer -->
 
 </body>
 
