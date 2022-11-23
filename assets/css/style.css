@@ -224,6 +224,7 @@ p {
     top: 0;
 }
 /* End Header section */
+
 /* Hero Section */
 #hero {
     background-image: url(../images/hero-image.jpg);
@@ -249,6 +250,8 @@ p {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
+    /* padding-bottom: 110px;
+    padding-left: 40px; */
     justify-content: flex-start;
 }
 
@@ -296,24 +299,6 @@ p {
 #hero h1:nth-child(3) span {
     animation-delay: 2.5s;
 }
-#hero .cta {
-    display: inline-block;
-    padding: 10px 30px;
-    color: white;
-    background-color: transparent;
-    border: 2px solid rgba(193,69,165,255);
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    margin-top: 30px;
-    transition: .3s ease;
-    transition-property: background-color, color;
-}
-
-#hero .cta:hover {
-    color: white;
-    background-color: rgba(193,69,165,255);
-}
 
 /* End Hero Section */
 
@@ -326,7 +311,11 @@ p {
     padding: 100px 0;
 }
 
-
+#lessons .lesson-top {
+    max-width: 500px;
+    margin: 0 auto;
+    
+}
 
 #lessons .lesson-bottom {
     display: flex;
@@ -361,7 +350,7 @@ p {
     height: 100%;
     width: 100%;
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    opacity: .8;
+    opacity: .9;
     z-index: -1;
 
 }
@@ -372,7 +361,7 @@ p {
     margin-bottom: 15px;
 }
 
-#lessons .lesson-bottom h2 {
+#lessons .lesson-item h2 {
     font-size: 2rem;
     color: white;
     margin-bottom: 10px;
@@ -400,7 +389,6 @@ p {
 #booking .booking {
     width: 360px;
     height: 400px;
-    /* background: rgba(41,45,55, .7); */
     background: #fff;
     border-radius: 10px;
     position: relative;
@@ -505,6 +493,9 @@ margin-bottom: 10px;
     top: 0;
     border-left: 20px solid #DC5E9D;
 }
+
+
+
 /* End Booking Form */
 /* footer */
 #footer {

@@ -39,9 +39,9 @@
         <div class="booking">
                 <form id="Form1">
                     <h3>CONTACT INFORMATION</h3>
-                    <input type="text" placeholder="Name">
-                    <input type="text" placeholder="Email">
-                    <input type="text" placeholder="Phone number">
+                    <input type="text" placeholder="Name" required>
+                    <input type="text" placeholder="Email" required>
+                    <input type="text" placeholder="Phone number" required>
                     <div class="btn-box">
                         <button typy="button" id="Next">NEXT</button>
                     </div>
@@ -53,16 +53,26 @@
                     <input type="text" value="GROUP" required>
                     <input type="text" value="OFFSITE" required>
                     <input type="text" value="ZERO 2 HERO" required> -->
-                    <label for="privat">PRIVAT SESSION</label>
-                    <input type="radio" id="privat" value="PRIVAT SESSION">
-                    <label for="group">GROUP SESSION</label>
-                    <input type="radio" id="group" value="GROUP SESSION">
-                    <label for="offsite">OFFSITE COACH</label>
-                    <input type="radio" id="offsite" value="OFFSITE COACH">
-                    <label for="zero2hero">FROM ZERO 2 HERO</label>
-                    <input type="radio" id="zero2hero" value="FROM ZERO 2 HERO">
-                    <div class="btn-box">
-                        <button typy="submit">SUBMIT</button>
+                    <div class="choose-lesson">
+                        <div class="left">
+                            <label for="privat">PRIVAT SESSION</label>
+                            <input type="radio" id="privat" value="PRIVAT SESSION">
+                        
+                            <label for="group">GROUP SESSION</label>
+                            <input type="radio" id="group" value="GROUP SESSION">
+                        </div>
+                        
+                        <div class="right">
+                            <label for="offsite">OFFSITE COACH</label>
+                            <input type="radio" id="offsite" value="OFFSITE COACH">
+                            
+                            <label for="zero2hero">FROM ZERO 2 HERO</label>
+                            <input type="radio" id="zero2hero" value="FROM ZERO 2 HERO">
+                        </div>
+                
+                        <div class="btn-box">
+                            <button typy="submit">SUBMIT</button>
+                        </div>
                     </div>
                 </form>
 
