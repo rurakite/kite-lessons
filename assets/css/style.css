@@ -248,9 +248,7 @@ p {
 #hero .hero {
     max-width: 1200px;
     margin: 0 auto;
-    /* padding: 0 50px; */
-    padding-bottom: 110px;
-    padding-left: 40px;
+    padding: 0 50px;
     justify-content: flex-start;
 }
 
@@ -412,3 +410,25 @@ p {
     }
 } 
 /* END Keyframes */
+
+/* Booking Form */
+#booking {
+    background-image: url(./_DSC7188-Edit.JPG);
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+    z-index: 1;
+}
+
+#booking::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .1;
+    z-index: -1;
+}
+/* End Booking Form */
