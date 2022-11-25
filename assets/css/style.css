@@ -371,7 +371,6 @@ p {
     height: 80px;
     width: 80px;
     margin-bottom: 15px;
-    text-align: right;
 }
 
 #lessons .lesson-item h2 {
@@ -563,6 +562,14 @@ form button {
 #booking #Form2 {
 left: 450px;
 margin-bottom: 10px;
+}
+
+#booking #Form2 h3 {
+    margin-bottom: 10px;
+}
+
+#booking #Form2 .btn-box {
+    margin-top: 15px;
 }
 
 #booking label {
