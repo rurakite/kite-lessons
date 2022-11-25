@@ -10,6 +10,7 @@
 html {
     font-size: 10px;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -325,7 +326,7 @@ p {
 
 #lessons .lesson-item {
     flex-basis: 80%;
-    display: flex;
+    /* display: flex; */
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
@@ -338,6 +339,17 @@ p {
     position: relative;
     z-index: 1;
     overflow: hidden;
+}
+
+#lessons .lesson-item .price {
+    text-align: right;
+    position: relative;
+    bottom: 76px;
+    /* padding-right: 30px; */
+}
+
+#lessons .lesson-item .price h1 {
+    color: #fff;
 }
 
 #lessons .lesson-item::after {
@@ -353,10 +365,13 @@ p {
 
 }
 
+
+
 #lessons .lesson-bottom .icon {
     height: 80px;
     width: 80px;
     margin-bottom: 15px;
+    text-align: right;
 }
 
 #lessons .lesson-item h2 {
@@ -712,7 +727,7 @@ margin-bottom: 10px;
 }
     /* End Lessons */
 
-    /* About */
+    /* About Section */
 #about .about {
     flex-direction: row;
 }
@@ -737,7 +752,7 @@ margin-bottom: 10px;
 #about .col-right h1 {
     text-align: left;
 }
-    /* End About */
+    /* End About Section */
 
      /* contact */
 #contact .contact {
