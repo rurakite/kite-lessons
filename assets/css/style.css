@@ -326,7 +326,6 @@ p {
 
 #lessons .lesson-item {
     flex-basis: 80%;
-    /* display: flex; */
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
@@ -639,7 +638,7 @@ margin-bottom: 10px;
 
 /* Gallery Section */
 #gallery {
-    background: #29323c;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
     margin: 0;
     padding: 0;
 }
@@ -653,8 +652,8 @@ margin-bottom: 10px;
 }
 
 #img-gallery img {
-    width: 250px;
-    height: 250px;
+    width: 270px;
+    height: 270px;
 }
 
 #img-gallery img:hover {
