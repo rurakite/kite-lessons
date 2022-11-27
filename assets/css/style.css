@@ -543,7 +543,7 @@ form input {
 
 #booking .btn-box {
     width: 100%;
-    margin: 30px auto;
+    margin: 40px auto;
     text-align: center;
 }
 
@@ -812,7 +812,7 @@ margin-bottom: 10px;
     padding: 100px 0;
     align-items: center;
     justify-content: center;
-    min-width: 20vh;
+    min-height: 20vh;
 }
 
 #contact .contact-items {
@@ -824,13 +824,14 @@ margin-bottom: 10px;
 }
 
 #contact .contact-item {
+    width: 30%;
     margin: 20px;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 #contact .contact-item .icon {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
 }
 
 #contact .contact-item .icon img {
@@ -842,7 +843,7 @@ margin-bottom: 10px;
     text-align: left;
     padding-left: 20px;
 }
-    /* contact */
+    /* end contact */
 
 }
 /* End Media Query for tablet */
@@ -875,6 +876,22 @@ margin-bottom: 10px;
     flex-basis: 22%;
     margin: 1.5%;
     }
+#contact .contact-items {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 0;
+    }
+#contact .contact-item {
+    width: 30%;
+    margin: 20px;
+    flex-direction: row;
+}
+#contact .contact-item .icon {
+    height: 100px;
+    width: 100px;
+}
 }
 
 /* End Media Query for desctope */
