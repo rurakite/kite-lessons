@@ -22,7 +22,7 @@
                     <div class="hamburger"><div class="bar"></div></div>
                     <ul>
                         <li><a href="index.html" data-after="Home">Home</a></li>
-                        <li><a href="#" data-after="Gallery">Gallery</a></li>
+                        <li><a href="gallery.html" data-after="Gallery">Gallery</a></li>
                         <li><a href="index.html#lessons" data-after="Lessons">Lessons</a></li>
                         <li><a href="booking.html" data-after="Booking">Booking</a></li>
                         <li><a href="index.html#about" data-after="About">About</a></li>
@@ -39,11 +39,11 @@
         <div class="booking">
                 <form id="Form1">
                     <h3>CONTACT INFORMATION</h3>
-                    <input type="text" placeholder="Name" required>
-                    <input type="text" placeholder="Email" required>
-                    <input type="text" placeholder="Phone number" required>
+                    <input type="text" placeholder="Name"  name="fullname" required>
+                    <input type="text" placeholder="Email" name="email" required>
+                    <input type="text" placeholder="Phone number" name="phone_number" required>
                     <div class="btn-box">
-                        <button typy="button" id="Next">NEXT</button>
+                        <button type="button" id="Next">NEXT</button>
                     </div>
                 </form>
 
@@ -76,7 +76,7 @@
                     </div>
 
                     <div class="btn-box">
-                        <button typy="submit">SUBMIT</button>
+                        <button type="submit">SUBMIT</button>
                     </div>
                 </form>
 
@@ -103,6 +103,7 @@
         </script>
     </section>
     <!-- End Form Section -->
+
     <!-- footer -->
     <section id="footer">
         <div class="footer container">
@@ -112,17 +113,24 @@
             <h2>WARNING: KITESURFING IS HIGHLY ADDICTIVE AND MAY COMPLETELY TAKE OVER YOUR LIFE</h2>
             <div class="social-icon">
                 <div class="social-item">
-                    <a href="#"><img src="https://img.icons8.com/bubbles/100/null/facebook-new.png"/></a>
+                    <a href="https://www.facebook.com/victor.rura" target="_blank">
+                        <img src="https://img.icons8.com/bubbles/100/null/facebook-new.png"/>
+                    </a>
                 </div>
                 <div class="social-item">
-                    <a href="#">
-                        <img src="https://img.icons8.com/bubbles/100/null/instagram-new--v2.png"/></a>
+                    <a href="https://www.instagram.com/rura.kite/" target="_blank">
+                        <img src="https://img.icons8.com/bubbles/100/null/instagram-new--v2.png"/>
+                    </a>
                 </div>
             </div>
-            <p><img src="https://img.icons8.com/fluency/48/null/copyright.png"/>2018-2023 Rura Kiteboarding, All rights reserved. </p>
+            <p>
+                <img src="https://img.icons8.com/fluency/48/null/copyright.png"/>2020-2023 Rura Kiteboarding, All rights reserved. 
+            </p>
         </div>
     </section>
     <!-- footer -->
+
+    <script src="./app.js"></script>
 
 </body>
 

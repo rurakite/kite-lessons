@@ -636,6 +636,36 @@ margin-bottom: 10px;
 
 /* End Booking Form */
 
+
+/* Gallery Section */
+#gallery {
+    background: #29323c;
+    margin: 0;
+    padding: 0;
+}
+
+#img-gallery {
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+#img-gallery img {
+    width: 250px;
+    height: 250px;
+}
+
+#img-gallery img:hover {
+    transform: scale(0.9) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+}
+
+
+/* End Gallery Section */
+
 /* Footer */
 #footer {
     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
@@ -720,8 +750,7 @@ margin-bottom: 10px;
 
 @keyframes text_reveal_name {
     100%{
-        /* color: rgba(193,69,165,255); */
-        color: #fff;
+        color: rgba(193,69,165,255);
     }
 } 
 
