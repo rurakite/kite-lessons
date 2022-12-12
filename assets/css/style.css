@@ -772,6 +772,7 @@ margin-bottom: 10px;
 
     /* Lessons */
 #lessons .lesson-bottom .lesson-item {
+    height: 400px;
     flex-basis: 45%;
     margin: 2.5%;
 }
