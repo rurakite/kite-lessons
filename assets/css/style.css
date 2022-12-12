@@ -870,8 +870,12 @@ margin-bottom: 10px;
 #header .nav-list ul li a::after {
     display: none;
 }
+
+.brand h1 {
+    font-size: 3rem;
+}
+
 #lessons .lesson-bottom .lesson-item {
-    /* height: 400px; */
     flex-basis: 22%;
     margin: 1.5%;
     }
