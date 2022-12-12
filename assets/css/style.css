@@ -509,7 +509,7 @@ p {
     overflow: hidden;
 }
 
-#booking h3 {
+#booking h1 {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 40px;
@@ -574,7 +574,7 @@ margin-bottom: 10px;
     height: 70px;
 }
 
-#booking #Form2 h3 {
+#booking #Form2 h1 {
     margin-bottom: 10px;
 }
 
@@ -582,7 +582,7 @@ margin-bottom: 10px;
     margin-top: 15px;
 }
 
-#booking #Form2 h3 {
+#booking #Form2 h1 {
     margin-top: -35px;
 }
 
@@ -679,7 +679,7 @@ margin-bottom: 10px;
 #footer h2 {
     color: white;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.2rem;
     letter-spacing: .1rem;
     margin-top: 10px;
     margin-bottom: 10px;
