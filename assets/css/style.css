@@ -51,7 +51,7 @@ p {
 }
 
 .section-title span {
-    color: rgba(193,69,165,255);
+    color: rgba(193,69,165);
 }
 
 .cta {
@@ -59,7 +59,7 @@ p {
     padding: 10px 30px;
     color: white;
     background-color: transparent;
-    border: 2px solid rgba(193,69,165,255);
+    border: 2px solid rgba(193,69,165);
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -70,7 +70,7 @@ p {
 
 .cta:hover {
     color: white;
-    background-color: rgba(193,69,165,255);
+    background-color: rgba(193,69,165);
 }
 
 .brand h1 {
@@ -81,7 +81,7 @@ p {
 }
 
 .brand h1 span {
-    color: rgba(193,69,165,255);
+    color: rgba(193,69,165);
 }
 
 /* Header section*/
@@ -160,7 +160,7 @@ p {
 }
 
 #header .nav-list ul li:hover a {
-    color: rgba(193,69,165,255);
+    color: rgba(193,69,165);
 }
 
 #header .hamburger {
@@ -282,7 +282,7 @@ p {
     left: 0;
     height: 100%;
     width: 0;
-    background-color: rgba(193,69,165,255);
+    background-color: rgba(193,69,165);
     animation: text_reveal_box 1s ease;
     animation-delay: .5s;
 }
@@ -435,7 +435,7 @@ p {
     top: 19px;
     height: 98%;
     width: 98%;
-    border: 7px solid rgba(193,69,165,255);
+    border: 7px solid rgba(193,69,165);
     z-index: -1;
 }
 /* End About Me */
@@ -748,7 +748,7 @@ margin-bottom: 10px;
 
 @keyframes text_reveal_name {
     100%{
-        color: rgba(193,69,165,255);
+        color: rgba(193,69,165);
     }
 } 
 
