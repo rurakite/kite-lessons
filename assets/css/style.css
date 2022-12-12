@@ -792,7 +792,7 @@ margin-bottom: 10px;
     left: -45px;
     top: 34px;
     height: 98%;
-    border: 10px solid (193,69,165,255);
+    border: 10px solid rgba(193,69,165);
 }
 
 #about .col-right {
