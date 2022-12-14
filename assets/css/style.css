@@ -417,7 +417,6 @@ p {
 #about .col-right .cta {
     color: #1d1e20;
     margin-bottom: 50px;
-    /* padding: 10px 20px; */
     font-size: 2rem;
 }
 
@@ -767,6 +766,10 @@ margin-bottom: 10px;
     /* Hero */
 #hero h1 {
     font-size: 7rem;
+}
+
+#hero:nth-child(2) {
+    margin-top: 60px;
 }
     /* End Hero */
 
