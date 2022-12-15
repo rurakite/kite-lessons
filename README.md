@@ -59,6 +59,10 @@ Rura Kiteboarding is a website where you can book a lesson or course with profes
   
   ![Booking](./assets/images/readme_media/Booking.png)
 
+### Testing
+  - I tested this website working with different browsers such as Safari, Google Chrome, Mozilla Firefox, Opera.
+  - I confirm that this project is responsive and looks good on smartphones, tablets and desctops.
+
 ### Validator Testing 
 
 - HTML
