@@ -49,7 +49,7 @@
                     <input type="text" placeholder="Email" name="email" required>
                     <input type="text" placeholder="Phone number" name="phone_number" required>
                     <div class="btn-box">
-                        <button type="button" id="Next">NEXT</button>
+                        <button type="submit" id="Next">NEXT</button>
                     </div>
                 </form>
 
@@ -64,7 +64,7 @@
 
                         <div class="button">
                             <img src="https://img.icons8.com/clouds/100/null/npc-face.png" alt="face icon">
-                            <input type="radio" id="privat" name="session_type" value="Privat">
+                            <input type="radio" id="privat" name="session_type" value="Privat" checked="checked">
                             <label for="privat">Privat Session</label>
                         </div>
 
@@ -95,16 +95,16 @@
 
         <script>
             var Form1 = document.getElementById("Form1");
-            var Form2 = document.getElementById("Form2");
-
-            var Next = document.getElementById("Next");
-
+            var Form2 = document.getElementById("Form2");    
             var progress = document.getElementById("progress")
 
-            Next.onclick = function(){
-                Form1.style.left = "-450px"
-                Form2.style.left = "40px"
-                progress.style.width = "360px"
+            Form1.onsubmit = (e) => { 
+            event.preventDefault()
+
+            Form1.style.left = "-450px"
+            Form2.style.left = "40px"
+            progress.style.width = "360px"
+  
             }
         </script>
     </section>

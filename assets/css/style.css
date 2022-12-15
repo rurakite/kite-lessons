@@ -804,9 +804,13 @@ margin-bottom: 10px;
     /* End Lessons */
 
     /* About Section */
-#about .container {
-    padding-top: 50px;
+#about {
+    padding-top: 100px;
 }
+
+/* #about .container {
+    padding-top: 50px;
+} */
 
 #about .section-title {
     text-align: center;
@@ -880,7 +884,7 @@ margin-bottom: 10px;
 }
 /* End Media Query for tablet */
 
-/* Media Query for desctope */
+/* Media Query for desktope */
 @media only screen and (min-width: 1200px) {
 #header .hamburger {
     display: none;
