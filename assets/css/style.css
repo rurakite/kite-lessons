@@ -386,6 +386,10 @@ p {
 /* End Lessons Section */
 
 /* About Me */
+#about {
+    padding-top: 100px;
+}
+
 #about .about {
     flex-direction: column-reverse;
     text-align: center;
