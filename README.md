@@ -11,53 +11,57 @@ Rura Kiteboarding is a website where you can book a lesson or course with profes
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Lessons Types, About, Contacts and Home page, Gallery page, Booking page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-  ![Navigation Bar](./assets/images/readme_media/NavigationBar.png)
+![Navigation Bar](./assets/images/readme_media/NavigationBar.png)
 
   - For smartphones and tablets was implemented the code allowing hide the menu into the animated humburger bar.
 
-  ![Tablet Nav Bar](./assets/images/readme_media/TabletNavBar.png)
+![Tablet Nav Bar](./assets/images/readme_media/TabletNavBar.png)
 
 - __The landing page image__
 
     - The landing includes a photograph with an animated text overlay to grab user's attention.
   - This section introduces the user to Rura Kiteboarding website and allows to press the button to book a lesson immediately transfering to the Booking page.
 
-  ![Landing](./assets/images/readme_media/LandingPage.png)
+![Landing](./assets/images/readme_media/LandingPage.png)
 
 - __Lessons Section__
   - The lessons section will allow the user to see and choose the type of the lesson what fits better for him.
   - The user can read description of each type of the training and see the cost of it.
   - This section is fully responsive for all types of devices.
 
-  ![Lesson](./assets/images/readme_media/LessonsType.png)
+![Lesson](./assets/images/readme_media/LessonsType.png)
 
 - __About Me Section__
   - This section will introduce the instructor to the user.
   - User can see the portrait of instructor.
   - This section also has a button allows user to book a lesson, transferring to the Booking page.
 
-  ![About Me](./assets/images/readme_media/AboutMe.png)
+![About Me](./assets/images/readme_media/AboutMe.png)
 
 - __Contact Section__
   - This section provides contact information for user to get in touch with instructor.
 
-  ![Contact info](./assets/images/readme_media/Contact.png)
+![Contact info](./assets/images/readme_media/Contact.png)
 
 - __Footer Section__
   - The footer section includes links to the relevant social media sites for instructor. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-  ![Footer](./assets/images/readme_media/Footer.png)
+![Footer](./assets/images/readme_media/Footer.png)
 
 - __Gallery Page__
   - The gallery will provide the user the visual understanding of what we can learn at lessons with instructor.
 
-  ![Gallery](./assets/images/readme_media/Gallery.png)
+![Gallery](./assets/images/readme_media/Gallery.png)
 
 - __Booking Page__
   - This page will allow the user to get booked the lesson what is fits best for him.
   
-  ![Booking](./assets/images/readme_media/Booking.png)
+![Booking](./assets/images/readme_media/Booking.png)
+
+- __Confirmation Page__
+  - This page will show user that his booking form has accepted.
+![Confirmation](./assets/images/readme_media/ConfirmationPage.png)
 
 # Testing
   - I tested this website working with different browsers such as Safari, Google Chrome, Mozilla Firefox, Opera.
@@ -84,9 +88,26 @@ Rura Kiteboarding is a website where you can book a lesson or course with profes
 
   # Deployment
   
-  The website was deployed to GitHub pages.
+  ## Version Control
+- The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘tacos-travels’.
 
-  The link can be found here - [Rura Kiteboarding website](https://rurakite.github.io/kite-lessons/index.html)
+- The following git commands were used throughout development to push code to the remote repo:
+
+- git add <file> - This command was used to add the file(s) to the staging area before they are committed.
+
+- git commit -m “commit message” - This command was used to commit changes to the local repository queue ready for the final step.
+
+- git push - This command was used to push all committed code to the remote repository on github.
+
+  ## Deployment to Github Pages
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the menu on left select 'Pages'
+  - From the source section drop-down menu, select the Branch: main
+  - Click 'Save'
+  - A live link will be displayed in a green banner when published successfully.
+  
+  The link can be found here - [https://rurakite.github.io/kite-lessons/index.html](https://rurakite.github.io/kite-lessons/index.html)
 
   # Credits
   - The idea for website designt taken from youtube channel - [WEB CIFAR](https://www.youtube.com/@webcifar)
