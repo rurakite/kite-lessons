@@ -55,17 +55,40 @@ Rura Kiteboarding is a website where you can book a lesson or course with profes
   ![Gallery](./assets/images/readme_media/Gallery.png)
 
 - __Booking Page__
-  - This page will allow the user to get booked the lesson what is best fits for him.
+  - This page will allow the user to get booked the lesson what is fits best for him.
   
   ![Booking](./assets/images/readme_media/Booking.png)
 
-### Testing
+# Testing
   - I tested this website working with different browsers such as Safari, Google Chrome, Mozilla Firefox, Opera.
   - I confirm that this project is responsive and looks good on smartphones, tablets and desctops.
 
-### Validator Testing 
+## Bugs
+
+### Solved Bugs
+- The favicon I created for the page didn't work properly, I discovered that the link for the icon was absolute path and I removed forward slash in front of the link. That worked after.
+
+### Unfixed bugs
+- Need to make the booking form work properly.
+
+## Validator Testing 
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frurakite.github.io%2Fkite-lessons%2Fgallery.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frurakite.github.io%2Fkite-lessons%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=ru)
+- Accessibility
+  - I confirm that colors and fonts chosen are able to read and accessible by running in through lighthouse in devtools.
+
+  ![Lighthouse](./assets/images/readme_media/LighthouseCheck.png)
+
+  # Deployment
+  
+  The website was deployed to GitHub pages.
+
+  The link can be found here - [Rura Kiteboarding website](https://rurakite.github.io/kite-lessons/index.html)
+
+  # Credits
+  - The idea for website designt taken from youtube channel - [WEB CIFAR](https://www.youtube.com/@webcifar)
+
+  - The media files such as pictures was made by myself.
