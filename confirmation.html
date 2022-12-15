@@ -39,77 +39,13 @@
         </div>
     </section>
     <!-- End Header  -->
-
-    <!-- Form Section -->
-    <section id="booking">
-        <div class="booking">
-                <form id="Form1">
-                    <h1>CONTACT INFORMATION</h1>
-                    <input type="text" placeholder="Name"  name="fullname" required>
-                    <input type="text" placeholder="Email" name="email" required>
-                    <input type="text" placeholder="Phone number" name="phone_number" required>
-                    <div class="btn-box">
-                        <button type="submit" id="Next">NEXT</button>
-                    </div>
-                </form>
-
-                <form id="Form2" action="confirmation.html">
-                    <h1>CHOOSE LESSON TYPE</h1>
-                    <div class="buttons">
-                        <div class="button">
-                            <img src="https://img.icons8.com/clouds/100/null/crowd--v2.png" alt="icon of a crowd">
-                            <input type="radio" id="group" name="session_type" value="Group">
-                            <label for="group">Group Session</label>
-                        </div>
-
-                        <div class="button">
-                            <img src="https://img.icons8.com/clouds/100/null/npc-face.png" alt="face icon">
-                            <input type="radio" id="privat" name="session_type" value="Privat">
-                            <label for="privat">Privat Session</label>
-                        </div>
-
-                        <div class="button">
-                            <img src="https://img.icons8.com/bubbles/100/null/training.png" alt="training board icon">
-                            <input type="radio" id="offsite" name="session_type" value="Offsite">
-                            <label for="offsite">Offsite Coaching</label>
-                        </div>
-
-                        <div class="button">
-                            <img src="https://img.icons8.com/plasticine/100/null/super-hero-male.png" alt="super hero icon">
-                            <input type="radio" id="zero2hero" name="session_type" value="Zero2hero">
-                            <label for="zero2hero">From Zero 2 Hero</label>
-                        </div>
-                    </div>
-
-                    <div class="btn-box">
-                        <button type="submit">SUBMIT</button>
-                    </div>
-                </form>
-
-                <div class="step-row">
-                    <div id="progress"></div>
-                    <div class="step-col">Step1</div>
-                    <div class="step-col">Step2</div>
-                </div>
+    <section id="confirmation">
+        <div class="confirmation container">
+            <h1 class="section-title"><span>booking</span> has accepted</h1>
+            <h2>Thank you for you interest, I will get in touch with you within next few hours.</h2>
+            <h2>If you will not hear from me, please feel free to give me a call on the number - +(353)-87-196-0859</h2>
         </div>
-
-        <script>
-            var Form1 = document.getElementById("Form1");
-            var Form2 = document.getElementById("Form2");
-
-            var Next = document.getElementById("Next");
-
-            var progress = document.getElementById("progress")
-
-            Next.onclick = function(){
-                Form1.style.left = "-450px"
-                Form2.style.left = "40px"
-                progress.style.width = "360px"
-            }
-        </script>
     </section>
-    <!-- End Form Section -->
-
     <!-- footer -->
     <section id="footer">
         <div class="footer container">
