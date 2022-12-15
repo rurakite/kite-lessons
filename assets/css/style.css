@@ -782,6 +782,14 @@ margin-bottom: 10px;
     /* End Lessons */
 
     /* About Section */
+#about .container {
+    padding-top: 50px;
+}
+
+#about .section-title {
+    text-align: center;
+}
+
 #about .about {
     flex-direction: row;
 }
@@ -790,6 +798,7 @@ margin-bottom: 10px;
     width: 600px;
     height: 400px;
     padding-left: 60px;
+    padding-bottom: 70px;
 }
 
 #about .col-left .about-img::after {
