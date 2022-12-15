@@ -817,6 +817,7 @@ margin-bottom: 10px;
 }
 
 #about .about {
+    padding-top: 10px;
     flex-direction: row;
 }
 
